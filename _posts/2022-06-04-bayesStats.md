@@ -27,7 +27,7 @@ background: '/img/posts/Bayesian-STATS/Unknown'
     - Let p be the proportion of woman
     - Sample n people randomly with replacement in the population and denote by  $X_i \overset{\mathrm{iid}}{\sim}$  Bern(p)
     - In the frequentist approach, we estimated p (using MLE), we constructed some confidence interval for p, we did hypothesis testing
-    - Before analyzing data, we may believe that p is likely close to 1/2
+    - Before analyzing data, we may believe that p is likely close to $1\over 2$
     - Bayesian approach is a tool to :
         - include mathematically our prior belief in statistical procedures
         - update our prior belief using the data
@@ -35,7 +35,7 @@ background: '/img/posts/Bayesian-STATS/Unknown'
         - E.g., we are 90% sure that p is between .4 and .6, 95% that it is between .3 and .8, etc...
             
     
-    ⇒ We can model our prior belief using a distribution for p, as if p was random
+    ⇒ We can **model** our prior belief using a distribution for p, as if p was random
     
 - In reality, **the true parameter is not random** ! However, the Bayesian approach is a way of modeling our belief about the parameter by doing as if it was random.
     - e.g: $p \sim B(a,a)$ (Beta distribution) for some a>0
