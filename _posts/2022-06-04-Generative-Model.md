@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Generative Models"
-background: ''
+background: '/img/posts/Generative/graph.png'
 ---
 # Generative Model
 
@@ -61,4 +61,5 @@ A key difference with traditional auto-encoder:
 
 ![Screenshot 2023-05-26 at 10.57.34.png](/img/posts/Generative/Screenshot_2023-05-26_at_10.57.34.png)
 
-## Generative Adversarial Networks (GAN)
+## Generative Adversarial Networks (GAN) 
+(...to be continued)

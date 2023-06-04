@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bayes Stats from MIT"
-background: '/img/posts/Bayesian-STATS/Unknown'
+background: '/img/posts/Bayesian-STATS/bayes.jpg'
 ---
 # Bayesian Statistics (MIT)
 
@@ -121,3 +121,4 @@ background: '/img/posts/Bayesian-STATS/Unknown'
             
 
 # Bayesian confidence regions:
+(...to be continued)
