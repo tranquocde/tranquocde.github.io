@@ -74,7 +74,7 @@ background: '/img/posts/Bayesian-STATS/Unknown'
 - We usually assume that $X_1,...,X_n$ are i.i.d conditionally on $\theta$.
 - The conditional distribution of $\theta$ given $X_1,...,X_n$ is called the *posterior distribution*. Denote by $\pi(.\|X_1,...,X_n)$
 - *Bayes’s formula* states that:
-    - $\pi(\theta\|X_1,...,X_n) \propto \pi(\theta)p_n(X_1,...,X_n\|\theta)\forall \theta \in \Theta$$
+    - $\pi(\theta\|X_1,...,X_n) \propto \pi(\theta)p_n(X_1,...,X_n\|\theta)\forall \theta \in \Theta$
 - The constant does **not depend** on $\theta$:
     - $\pi(\theta\|X_1,...,X_n) = {\pi(\theta)p_n(X_1,...,X_n\|\theta)\over \int_{\Theta}p_n(X_1,...,X_n\|t)d_{\pi}(t)} \forall \theta \in \Theta$
 
