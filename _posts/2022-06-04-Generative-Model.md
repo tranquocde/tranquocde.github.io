@@ -32,7 +32,7 @@ background: ''
     - Unsupervised approach for learning a lower-dimensional feature representation
     - Train the model to use these features to **reconstruct the original data**
         
-        ![img](img/posts/Generative/Screenshot_2023-05-26_at_10.48.21.png)
+        ![img](/img/posts/Generative/Screenshot_2023-05-26_at_10.48.21.png)
         
 
 ## Variational Auto-encoders (VAE)
@@ -42,11 +42,11 @@ A key difference with traditional auto-encoder:
 - Variational auto-encoders are a probabilistic twist on auto-encoders
 - Sample from the mean and standard deviation to compute latent sample
     
-    ![Screenshot 2023-05-26 at 10.51.55.png](Generative%20Model%20611f0566cb8b4703affa8e6c80a5515d/Screenshot_2023-05-26_at_10.51.55.png)
+    ![Screenshot 2023-05-26 at 10.51.55.png](\img/posts/Generative/Screenshot_2023-05-26_at_10.51.55.png)
     
 - $L(\phi,\theta,x)$ = (reconstruction loss) + (regularization term)
     
-    ![Screenshot 2023-05-26 at 10.59.24.png](Generative%20Model%20611f0566cb8b4703affa8e6c80a5515d/Screenshot_2023-05-26_at_10.59.24.png)
+    ![Screenshot 2023-05-26 at 10.59.24.png](\img/posts/Generative/Screenshot_2023-05-26_at_10.59.24.png)
     
 - Intuition on regularization:
     - What properties do we want to achieve from regularization?
@@ -57,8 +57,8 @@ A key difference with traditional auto-encoder:
 
 **⇒ Reparametrizing the sampling layer !** 
 
-![Screenshot 2023-05-26 at 10.58.01.png](Generative%20Model%20611f0566cb8b4703affa8e6c80a5515d/Screenshot_2023-05-26_at_10.58.01.png)
+![Screenshot 2023-05-26 at 10.58.01.png](/img/posts/Generative/Screenshot_2023-05-26_at_10.58.01.png)
 
-![Screenshot 2023-05-26 at 10.57.34.png](Generative%20Model%20611f0566cb8b4703affa8e6c80a5515d/Screenshot_2023-05-26_at_10.57.34.png)
+![Screenshot 2023-05-26 at 10.57.34.png](/img/posts/Generative/Screenshot_2023-05-26_at_10.57.34.png)
 
 ## Generative Adversarial Networks (GAN)
