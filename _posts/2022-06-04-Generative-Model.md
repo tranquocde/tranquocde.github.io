@@ -14,7 +14,7 @@ background: ''
 - **Goal**:
     - Take as input training samples from some distribution and learn a model that represents that distribution.
         
-        ![Screenshot 2023-05-26 at 10.39.55.png](/img/posts/Generative-Model /Screenshot_2023-05-26_at_10.39.55.png)
+        ![Screenshot 2023-05-26 at 10.39.55.png](/img/posts/Generative/Screenshot_2023-05-26_at_10.39.55.png)
         
 
 → How can we learn $P_{model}(x)$ similar to $P_{data}(x)$?
@@ -32,7 +32,7 @@ background: ''
     - Unsupervised approach for learning a lower-dimensional feature representation
     - Train the model to use these features to **reconstruct the original data**
         
-        ![Screenshot 2023-05-26 at 10.48.21.png](Generative%20Model%20611f0566cb8b4703affa8e6c80a5515d/Screenshot_2023-05-26_at_10.48.21.png)
+        ![img](img/posts/Generative/Screenshot_2023-05-26_at_10.48.21.png)
         
 
 ## Variational Auto-encoders (VAE)
