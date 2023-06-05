@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Home World Game RL project"
-background: ''
+background: '/img/posts/HomeWorld/Screenshot_2023-05-05_at_17.12.42.png'
 ---
 # Home World Game RL project
 
