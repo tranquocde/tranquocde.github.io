@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact Me
-background: '/img/bg-contact.jpg'
+background: '/img/4756A27B-8851-4AF7-8CE5-BDE8306C511D_1_105_c.jpeg'
 form: true
 ---
 **Email**: tranquocdectk1821@gmail.com
