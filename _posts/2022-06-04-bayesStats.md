@@ -118,7 +118,48 @@ background: '/img/posts/Bayesian-STATS/bayes.jpg'
         - If $\eta$ is a re-parametrization of $\theta$(i.e., $\eta = \phi(\theta)$ for some one-to-one map $\phi$), then the pdf $\widetilde{\pi}(.)$  of $\eta$ satisfies: $\widetilde{\pi}(\eta)\propto \sqrt{\det \widetilde{I}(\eta)}$,
             
             Where $\widetilde{I}(\eta)$ is the Fisher information of the statistical model parametrized by $\eta$ instead of $\theta$.
-            
 
-# Bayesian confidence regions:
-(...to be continued)
+# **Bayesian confidence region**
+- For $\alpha \in (0,1)$, a Bayesian confidence region with level $\alpha$ is a random subset R of the parameter space $\Theta$, which depends on the sample $X_1,...,X_n$ such that:
+    - $P[\theta \in R \| X_1,...,X_n] = 1-\alpha$
+    - Note that **R depends on the prior $\pi(.)$**
+- Bayesian confidence region and confidence interval are two **distinct** notions.
+- **Example**:
+    - $X_1 = \theta +\epsilon_1,X_2= \theta+\epsilon_2$
+        where $P(\epsilon_i=1)=P(\epsilon_i=-1)={1\over2}$
+    - $R=\begin{cases} X_1-1 ,if X_1=X_2 \over {X_1+X_2\over 2},if X_1 ≠ X_2\end{cases}$
+
+     ⇒ This is confidence region (**Frequentist**) at level 75%  
+
+- **Bayes region:** 
+$P(\theta \in {X_1-1} \cap X_1≠X_2) + P(\theta\in {X_1+X_2\over2} \cap X_1≠X_2)$
+= $P(\theta=\theta+\epsilon_1-\epsilon_2\cap\epsilon_1=\epsilon_2) +P(\epsilon_1+\epsilon_2 = 0\cap \epsilon_1≠\epsilon_2)$ = 1/4 + 2/4 = 3/4 
+- **Likelihood**:  $P(X_1,X_2\|\theta)$
+        
+    Let assume that $X_1=5,X_2=7$.
+            
+    $P(5,7|\theta) = \begin{cases}
+            1/4,if \theta=6\over
+            0, otherwise
+            \end{cases}$
+            **posterior**: $\pi(\theta|5,7) = {\pi(\theta)p(5,7|\theta)\over \sum_{t\in Z}\pi(t)p(5,7|t)}$
+            
+    ⇒ $\pi(\theta|5,7) = \begin{cases}
+            1,if \theta=6 \over
+            0, otherwise
+            \end{cases}$ 
+- **Bayesian estimation:**
+    - The Bayes framework can be used to estimate the true underlying parameter
+    - In this case, the prior does not reflect a prior belief: It is just an artificial tool used in order to define a new class of estimators.
+    - Define a distribution (that can be improper) with pdf $\pi$ on the parameter space $\Theta$.
+    - Compute the posterior pdf $\pi(.|X_1,...,X_n)$ associated with $\pi$, seen as a prior distribution
+    - Bayes estimator:
+    
+    $$
+    \hat\theta^{(\pi)} = \int_{\Theta}\theta d_{\pi}(\theta|X_1,...,X_n)
+    $$
+    
+    This is the *posterior mean*.
+    
+    - The Bayesian estimator depends on the choice of the prior distribution $\pi$
+    - In general, **the asymptotic properties** of the Bayes estimator **do not depend on the choice of the prior.**
