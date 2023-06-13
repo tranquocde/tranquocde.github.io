@@ -142,7 +142,9 @@ $P(\theta \in {X_1-1} \cap X_1≠X_2) + P(\theta\in {X_1+X_2\over2} \cap X_1≠X
             1/4,if \theta=6\over
             0, otherwise
             \end{cases}$
-            **posterior**: $\pi(\theta|5,7) = {\pi(\theta)p(5,7|\theta)\over \sum_{t\in Z}\pi(t)p(5,7|t)}$
+
+        
+    **posterior**: $\pi(\theta\|5,7) = {\pi(\theta)p(5,7\|\theta)\over \sum_{t\in Z}\pi(t)p(5,7\|t)}$
             
     ⇒ $\pi(\theta|5,7) = \begin{cases}
             1,if \theta=6 \over
@@ -152,7 +154,7 @@ $P(\theta \in {X_1-1} \cap X_1≠X_2) + P(\theta\in {X_1+X_2\over2} \cap X_1≠X
     - The Bayes framework can be used to estimate the true underlying parameter
     - In this case, the prior does not reflect a prior belief: It is just an artificial tool used in order to define a new class of estimators.
     - Define a distribution (that can be improper) with pdf $\pi$ on the parameter space $\Theta$.
-    - Compute the posterior pdf $\pi(.|X_1,...,X_n)$ associated with $\pi$, seen as a prior distribution
+    - Compute the posterior pdf $\pi(.\|X_1,...,X_n)$ associated with $\pi$, seen as a prior distribution
     - Bayes estimator:
     
     $$
