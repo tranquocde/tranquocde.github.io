@@ -6,7 +6,10 @@
 
 <body>
 
+  
   {% include navbar.html %}
+
+
 
   {{ content }}
 
@@ -14,6 +17,7 @@
 
   {% include scripts.html %}
 
+  {% include search.html %}
   {% include google-analytics.html %}
 
 </body>
@@ -33,4 +37,5 @@
              SVG: { linebreaks: { automatic: true } }
     });
     </script>
+  <!-- <script src="https://unpkg.com/lunr/lunr.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
