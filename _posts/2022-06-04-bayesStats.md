@@ -64,7 +64,7 @@ background: '/img/posts/Bayesian-STATS/bayes.jpg'
     Bayes' theorem states that the posterior probability distribution is proportional to the product of the prior probability distribution and the likelihood function, which describes the probability of observing the data given the hypothesis or parameter. The normalization constant in Bayes' theorem ensures that the posterior probability distribution integrates to 1.
     
     Bayesian inference has several advantages over other statistical approaches. For example, Bayesian inference allows for the incorporation of prior knowledge or beliefs, which can improve the accuracy of statistical inference, especially in situations where the sample size is small. Bayesian inference also provides a flexible framework for modeling complex data structures and can handle missing data and other types of uncertainties. However, Bayesian inference can be computationally intensive, and the choice of prior distribution can have a significant impact on the posterior distribution.
-    
+    xsx
 
 # **The Bayes rule and posterior distribution:**
 
