@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Expectation Maximization algorithm and applications in problem of recommender systems"
+background: '/img/posts/EM/Recommend.png'
 ---
 
 
