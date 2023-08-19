@@ -57,9 +57,9 @@ $$
 
 # Solution
 
-**??? HOW TO MAKE IT POSSIBLE ???**
+**??? HOW TO MAKE IT POSSIBLE ???** 
 
-![Screenshot 2023-08-18 at 10.07.25.png](/img/posts/ImageSegmentation/Screenshot_2023-08-18_at_10.07.25.png)
+**IMAGE SEGMENTATION INSTANCE -> MIN-CUT**
 
 ## Missing source and sink ?
 
