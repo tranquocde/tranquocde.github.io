@@ -5,9 +5,6 @@ background: '/img/posts/EM/Recommend.png'
 ---
 
 
-
-
-
 # Introduction
 
 [code](https://github.com/tranquocde/Stats_final/tree/master/src)

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Image segmentation using min-cut"
+author: "tranquocde"
 background: '/img/posts/ImageSegmentation/Screenshot_2023-08-18_at_10.07.25.png'
 ---
 

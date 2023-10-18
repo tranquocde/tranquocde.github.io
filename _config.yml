@@ -2,8 +2,8 @@ title:              Simple AI & STATS
 email:              tranquocdetctk1821@gmail.com
 description:        The place to bring on ideas
 author:             tran quoc de
-baseurl:            ""
-url:                "https://tranquocde.org"
+baseurl:            ''
+url:                https://tranquocde.github.io
 
 # Social Profiles
 twitter_username:   
