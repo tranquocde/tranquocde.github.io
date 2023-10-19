@@ -101,9 +101,9 @@ For each choice of $f_i$, we get a specific model.
     
     #num. of params. = $O(nd)$
     
-    Fewer than $O(n^2d)$(the above model)
+    **Fewer than $O(n^2d)$(the above model)**
     
-    Performance still better than FVSBN !
+    **Performance still better than FVSBN !**
     
 
 # Learning and Inference
