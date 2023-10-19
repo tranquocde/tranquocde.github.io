@@ -40,7 +40,7 @@ $$
 
 where $\theta_i$ denotes the set of params. used to specify the mapping $f_i:{0,1}^{i-1}\rightarrow[0,1]$ ($f_i$ could be a neural network, actually it should be a neural network :D , in a differentiable way !! so we can back-propagate)
 
-⇒ What is the number of params. now ? : $\sum_{i=1}^n|\theta_i|$
+⇒ What is the number of params. now ? : $\sum_{i=1}^n \| \theta_i \|$
 
 For each choice of $f_i$, we get a specific model. 
 
