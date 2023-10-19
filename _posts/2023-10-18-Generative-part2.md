@@ -8,7 +8,7 @@ background: "/img/posts/generative-model/Screenshot_2023-10-19_at_11.57.05.png"
 
 ## Auto-regressive model
 
-Given a dataset $D$ of n-dimensional datapoints x. We assume $ x\in \{ 0,1 \} ^n. $
+Given a dataset $D$ of n-dimensional datapoints x. We assume $ x\in \\{ 0,1 \\} ^n. $
 
 ### Chain rule
 
@@ -28,7 +28,7 @@ Represent as graphical model :
 
 **Bottleneck** : Too much to handle !!!
 
-For example : $p(x_n\|x_{<n})$ needs $2^{n-1}$ configurations of previous n-1 variables
+For example : $p(x_n\|x_{<n})$ needs $2^{n-1}$ configurations of previous n-1 variables (because $ x \in \\{ 0,1 \\}^n$)
 
 ⇒ exponential space complexity !!!
 
