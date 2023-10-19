@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-description: Student of K66 HUST
+description: Tran Quoc De - Student of K66 HUST
 background: '/img/48CE7898-4DC8-4F2D-ACAC-CF2791741930_1_105_c.jpeg'
 ---
 
