@@ -7,6 +7,7 @@ background: "/img/posts/generative-model/cover_2.jpeg"
 
 
 ## Introduction
+
 **Natural agent excel at discovering pattern, extracting knowledge and performing complex reasoning based on the observed data**
 
 **⇒ How to build AI systems to do the same ?**
