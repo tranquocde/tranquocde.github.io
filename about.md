@@ -9,15 +9,24 @@ background: '/img/48CE7898-4DC8-4F2D-ACAC-CF2791741930_1_105_c.jpeg'
   
   
 ## Highschool:
-- Thai Binh gifted highschool
+
+
+- Thai Binh gifted high school
+- Second prize, Third prize of Vietnam Mathematical Olympiad.
+- Odon vallet scholarship 2019
+
 
 ## University:
+
+
 - Hanoi University of Science and Technology
+- Artificial Intelligence Major
+- CPA: 3.67
 
 ## Interests : 
 
-This blog is the place I learn to write sth I want to share.
+- This blog is the place I learn to write sth I want to share.
 
-I enjoy all topics related to AI and Machine learning/Deep learning. Currently, I delve into meta-learning and deep generative model.
+- I enjoy all topics related to AI and Machine learning/Deep learning. Currently, I delve into meta-learning and deep generative model.
 
 P/S: English is not my mother tounge, so sorry about any grammar mistakes :v
