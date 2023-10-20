@@ -34,7 +34,7 @@ where $p_{data}$ is accessed via dataset $D$ and d(.) is the distance between pr
 
 ## Difficulty
 
-An image from modern phone camera has resolution 700*1400 pixels, with 3 channels of  RGB. Hence the number of possible images is $10^{8000000}$, which is to large to any machine can handle. Learning a generative model with such a limited dataset is a highly underdetermined problem.
+An image from modern phone camera has resolution 700*1400 pixels, with 3 channels of  RGB. Hence the number of possible images is more than $10^{8000000}$, which is to large to any machine can handle. Learning a generative model with such a limited dataset is a highly underdetermined problem.
 
 But the world is highly structured and automatically discovering the underlying structure is key to learn a generative model. For example, given just a few images of dogs, we can hope to learn some very most basic features of any dog can have ( 2 ears, fur, nose,eyes, etc…). Instead of inserting the prior knowledge into the model, we want the model to learn this features by itself. Some questions we will primarily interested in:
 
@@ -50,4 +50,4 @@ As we defined before, Generative models learn a joint distribution over the enti
 
 - **Density estimation**: Given datapoint x, what   is the probability of $p_{\theta}(x)$ ?
 - **Sampling**: How can we generate data from the model distribution, $x_{new} \sim p_\theta(x)?$
-- **Unsupervised representation learning**: How can we learn meaningful feature representations for a datapoint x ? ( This is extremely useful for supervised downstream tasks ! )
+- **Unsupervised representation learning**: How can we learn meaningful feature representations for a datapoint x ? ( This is extremely useful for supervised downstream tasks !!! , we'll talk about it later in this series of generative model. )
