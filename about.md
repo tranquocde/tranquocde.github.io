@@ -31,4 +31,4 @@ background: '/img/48CE7898-4DC8-4F2D-ACAC-CF2791741930_1_105_c.jpeg'
 
 - I enjoy all topics related to AI and Machine learning/Deep learning. Currently, I delve into meta-learning and deep generative model.
 
-P/S: English is not my mother tounge, so sorry about any grammar mistakes :v
+P/S: English is not my mother tonge, so sorry about any grammar mistakes :v
