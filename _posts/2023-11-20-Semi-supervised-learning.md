@@ -35,10 +35,11 @@ $$
 \log p_{\theta}(x) = \sum_{x\in X_l}\log p_{\theta}(x) + \sum_{x\in X_l}\log p_{\theta}(x,y)
 $$
 
-where: (y is discrete variable ⇒ $\int \rightarrow \sum$
+where: y is discrete variable ⇒ $\int \rightarrow \sum$
 
 $$
-⁍
+p_{\theta}(x) = \sum_{y\in Y} \int p_{\theta}(x,y,z)dz \\ 
+p_{\theta}(x,y) = \int p_{\theta}(x,y,z) dz
 $$
 
 **Our goal is to maximize the log-likelihood, but it’s intractable, hence the idea of ELBO ( Evidence Lower Bound ).**
