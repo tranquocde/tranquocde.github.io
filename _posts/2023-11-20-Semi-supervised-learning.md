@@ -96,6 +96,7 @@ Test set classification accuracy: 0.7529000043869019
 
 # References
 
+- [Original Paper](https://arxiv.org/abs/1406.5298)
 - [CS236 - Deep Generative Model](https://deepgenerativemodels.github.io/)
 - [Coding repo](https://github.com/tranquocde/cs236-hw/tree/master/hw2-starter)
 - [Draft for idea](https://share.goodnotes.com/s/MoosQrrBjlbvutfiJkps9i)
