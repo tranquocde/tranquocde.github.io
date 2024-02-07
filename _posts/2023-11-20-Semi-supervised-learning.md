@@ -65,6 +65,16 @@ $$
 ### Using supervised learning for classification ( not use unlabeled data)
 
 ```
+********************************************************************************
+CLASSIFICATION EVALUATION ON ENTIRE TEST SET
+********************************************************************************
+Test set classification accuracy: 0.7529000043869019
+```
+
+
+### Using semi-supervised for classification
+
+```
 {'cw': 100,
  'gw': 1,
  'iter_max': 50000,
@@ -77,15 +87,6 @@ Loaded from checkpoints/model=ssvae_gw=001_cw=100_run=0000/model-50000.pt
 CLASSIFICATION EVALUATION ON ENTIRE TEST SET
 ********************************************************************************
 Test set classification accuracy: 0.9491000175476074
-```
-
-### Using semi-supervised for classification
-
-```
-********************************************************************************
-CLASSIFICATION EVALUATION ON ENTIRE TEST SET
-********************************************************************************
-Test set classification accuracy: 0.7529000043869019
 ```
 
 ### Using semi-supervised to generate images based on the request
