@@ -1,5 +1,7 @@
 <!-- Footer -->
 
+<input type="text" id="search-input" placeholder="Searching">
+<div id="search-results"></div>
 <hr>
 
 <footer>
@@ -73,3 +75,15 @@
     </div>
   </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.9.1/dist/simple-jekyll-search.min.js"></script>
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('search-results'),
+    json: 'search.json',
+    searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+    noResultsText: 'No results found',
+    limit: 10,
+    fuzzy: false,
+  })
+  </script>
